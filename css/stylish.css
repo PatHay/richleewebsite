@@ -8,13 +8,22 @@ body {
   font-family: 'Source Sans Pro';
 }
 
+.about{
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0px;
+}
+
+.contact{
+  padding-right: 1.5rem;
+}
+
 .btn-xl {
   padding: 1.25rem 2.5rem;
 }
 
 .content-section {
-  padding-top: 7.5rem;
-  padding-bottom: 7.5rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 }
 
 .content-section-heading h2 {
@@ -230,7 +239,7 @@ h6 {
 
 .callout {
   padding: 15rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-callout.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/aboutbg.jpeg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -379,4 +388,9 @@ a:hover, a:focus, a:active {
 
 .text-secondary {
   color: #ecb807 !important;
+}
+
+.moreAbout{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
